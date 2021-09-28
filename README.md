@@ -1,8 +1,20 @@
 
 # Werkstattauftrag W07-Webmin
+<br>
 
-Inhaltsverzeichnis:
--------------------
+# Inhaltsverzeichnis
+ - [Autoren](#1-autoren-versionierung-des-dokumentes)
+ - [Einfuerung](#2-einfuehrung)
+ - [Hardware-Software](#3-benoetigte-hard--und-software)
+ - [Anleitung](#4-installationsanleitung)
+ - [Kontrolle](#5-qualitaetskontrolle)
+ - [Fehlermeldungen](#6-error-handling)
+ - [Quellen](#7-quellen)
+ - [Lizenz](#8-opensource-lizenz)
+
+
+
+
 
 # 1. Autoren, Versionierung des Dokumentes
 Autoren: Jonah Gutknecht, Thomas Züger
