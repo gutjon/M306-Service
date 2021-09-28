@@ -115,19 +115,19 @@ In der Benutzerliste wird der deaktiviert Account jetzt Kursiv angezeigt.
 # 5. Qualitaetskontrolle
 Folgende Commands können ausgeführt werden um zu testen, ob alles richtig funktioniert.
 
-Status von Webmin überprüfen 
+**Status von Webmin überprüfen:**<br>
 sudo service webmin status
 
-Webmin re/starten 
+**Webmin re/starten:**<br>
 sudo /etc/webmin/start
 
-sudo service 
+**sudo service:**<br>
 webmin restart
 
-Webmin stoppen 
+**Webmin stoppen:**<br>
 sudo service webmin stop
 
-Konfiguration überprüfen 
+**Konfiguration überprüfen:**<br>
 cd /etc/webmin (Ordner von config files)
 
 
