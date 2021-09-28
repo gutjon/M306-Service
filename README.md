@@ -6,11 +6,11 @@
  - [Autoren](#1-autoren-versionierung-des-dokumentes)
  - [Einfuerung](#2-einfuehrung)
  - [Hardware-Software](#3-benoetigte-hard--und-software)
- - [Anleitung](#4-installationsanleitung)
- - [Kontrolle](#5-qualitaetskontrolle)
- - [Fehlermeldungen](#6-error-handling)
+ - [Installationsanleitung](#4-installationsanleitung)
+ - [Qualitaetskontrolle](#5-qualitaetskontrolle)
+ - [Error-Handling](#6-error-handling)
  - [Quellen](#7-quellen)
- - [Lizenz](#8-opensource-lizenz)
+ - [Opensource Lizenz](#8-opensource-lizenz)
 
 
 
