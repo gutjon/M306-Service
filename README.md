@@ -12,12 +12,22 @@ Autoren: Jonah Gutknecht, Thomas Züger
 
 # 2. Einfuehrung 
    - Beschreibung: Welche Funktionen wird der Service erfuellen
-   - Die Installation von WEBMIN (Werkstatt Auftrag 07) ist bis am 28.09.2021 um 11:05 abgeschlossen.
-   - Stolpersteine
+   - Zeitaufwand: Die Installation von WEBMIN (Werkstatt Auftrag 07) ist bis am 28.09.2021 um 11:05 abgeschlossen.
+   - Stolpersteine: Das RaspberryPI Linux image wurde von vorgehenden Schüler übernommen, wodurch möglicherweise wichtige Config-Files bereits angepasst wurden.
 
 # 3. Benoetigte Hard- und Software
    - Hardware (Materialliste, Funktionalitaet)
+  1x RaspberryPI v4 (inkl. Stromkabel)
+  1x HDMI zu DVI Adapter
+  1x HDMI zu miniHDMI Adapter
+  1x Externer Bildschirm
+  1x Tastatur
+  1x Maus
+  
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Ab-
+1x RaspberryPI LInux Image
+1x Webmin (aktuellste Version)
+
 	hängigkeiten, Funktionalitaet)
 
 # 4. Installationsanleitung
@@ -82,17 +92,37 @@ Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewä
 In der Benutzerliste wird der deaktiviert Account jetzt Kursiv angezeigt.
 ![Bild](disabled.png)
 
-   - Anweisungen verstaendlich und nachvollziehbar
-   - Keine fertigen Loesungsschritte aufzeigen
-   - Hilfestellung (Tipps, Quellen...)
+
 
 # 5. Qualitaetskontrolle
- (Pruefen der Funktionalitaet mit Ablauf von Kommandos
-	und entsprechenden Outputs)
+Folgende Commands können ausgeführt werden um zu testen, ob alles richtig funktioniert.
+
+Status von Webmin überprüfen 
+sudo service webmin status
+
+Webmin re/starten 
+sudo /etc/webmin/start
+
+sudo service 
+webmin restart
+
+Webmin stoppen 
+sudo service webmin stop
+
+Konfiguration überprüfen 
+cd /etc/webmin (Ordner von config files)
+
 
 # 6. Error-Handling 
 
+Wir hatten bei der Installation von Webmin keine grösseren Probleme
+
 # 7. Quellen
+Anleitung Installation Webmin
+https://bscw.tbz.ch/bscw/bscw.cgi/31513531?op=preview&back_url=27527809
+
+RaspberryPI OS
+https://www.raspberrypi.org/software/
 
 # 8. OpenSource Lizenz
 
