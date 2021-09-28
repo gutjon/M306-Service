@@ -36,8 +36,8 @@ Autoren: Jonah Gutknecht, Thomas Züger
   1x Tastatur<br>
   1x Maus<br>
   <br>
-  <br>
-   - Software Anforderungen
+
+   - Software Anforderungen<br>
 1x RaspberryPI LInux Image<br>
 1x Webmin (aktuellste Version)<br>
 
@@ -48,6 +48,7 @@ Autoren: Jonah Gutknecht, Thomas Züger
  Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.
  sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl
 
+**Installation Webmin**
 Installation der aktuellsten WEBMIN Version 1.981
 cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
 minimal.tar.gz
@@ -68,10 +69,12 @@ Nach der Installation von Webmin wird die Adresse von Webmin angezeigt.
 Default Benutzer: admin
 Gesetztes Passwort: 12345
 
+**Webmin konfigurieren**
+
 Im Webmin Browserfenster können unter dem Punkt «Webmin
 Configuration» und dann «Webmin Modules» weiter Module installiert werden.
 
-Mit den drei Punkten auf der rechten Seite können zusätzliche MOdule installiert werden.
+Mit den drei Punkten auf der rechten Seite können zusätzliche Module installiert werden.
 ![Bild](webmin_additionally_modules.png)
 
 Wähle das "useradmin" Modul an und gehe unten links auf "Install"
@@ -92,12 +95,15 @@ Zum Schluss ganz unten noch auf "create" klicken.
 Anschliessend sieht man den erstellten Benutzer in der Liste
 ![Bild](created_user.png)
 
+**User erstellen**
+
 Hier wird noch ein normaler User Account erstellt.
 ![Bild](create_user_account.png)
 
 Diesen User einfach in der Gruppe "Users" lassen.
 ![Bild](group_membership2.png)
 
+**Admin User deaktivieren**
 Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.
 ![Bild](admin_user_deactivate.png)
 
