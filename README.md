@@ -12,7 +12,7 @@ Autoren: Jonah Gutknecht, Thomas Züger
 
 # 2. Einfuehrung 
    - Beschreibung: Welche Funktionen wird der Service erfuellen
-   - Vorgesehener Zeitaufwand für die Realisierung
+   - Die Installation von WEBMIN (Werkstatt Auftrag 07) ist bis am 28.09.2021 um 11:05 abgeschlossen.
    - Stolpersteine
 
 # 3. Benoetigte Hard- und Software
@@ -22,6 +22,66 @@ Autoren: Jonah Gutknecht, Thomas Züger
 
 # 4. Installationsanleitung
  (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
+ Auf dem RaspberryPI WLAN einrichten.
+ Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.
+ sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl
+
+Installation der aktuellsten WEBMIN Version 1.981
+cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
+minimal.tar.gz
+
+Entpacken der heruntergeladenen .tar.gz Datei:
+tar -zxvf webmin-1.981 minimal.tar.gz
+
+In den Ordner mit dem installiertem Setup wechseln und anschliessend die Setup Datei ausführen.
+cd webmin-1.881
+sudo ./setup.sh
+
+Bei dem Setup kann alles auf default gelassen werden. Empfehlenswert ist das Wechseln des Passwortes. 
+![Bild](change_password.png)
+
+Nach der Installation von Webmin wird die Adresse von Webmin angezeigt. 
+![Bild](webmin_installation_finished.png)
+
+Default Benutzer: admin
+Gesetztes Passwort: 12345
+
+Im Webmin Browserfenster können unter dem Punkt «Webmin
+Configuration» und dann «Webmin Modules» weiter Module installiert werden.
+
+Mit den drei Punkten auf der rechten Seite können zusätzliche MOdule installiert werden.
+![Bild](webmin_additionally_modules.png)
+
+Wähle das "useradmin" Modul an und gehe unten links auf "Install"
+![Bild](install_useradmin.png)
+
+Unter Standard module sollte nun "useradmin" stehen. Anschliessend kann auf "Install Module" geklickt werden.
+![Bild](install_module.png)
+
+Im Hauptmenu auf "System" und dann auf "User and Groups". In diesem Menu können nun neue User erstellt werden.
+![Bild](create_user.png)
+
+**Admin User Erstellen**
+
+Weiter unten bei "Group Membership" kann der User noch in die Admin Gruppe genommen werden, damit dieser auch Admin Rechte hat.
+![Bild](group_membership.png)
+Zum Schluss ganz unten noch auf "create" klicken.
+
+Anschliessend sieht man den erstellten Benutzer in der Liste
+![Bild](created_user.png)
+
+Hier wird noch ein normaler User Account erstellt.
+![Bild](create_user_account.png)
+
+Diesen User einfach in der Gruppe "Users" lassen.
+![Bild](group_membership2.png)
+
+Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.
+![Bild](admin_user_deactivate.png)
+
+In der Benutzerliste wird der deaktiviert Account jetzt Kursiv angezeigt.
+![Bild](disabled.png)
+
    - Anweisungen verstaendlich und nachvollziehbar
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
