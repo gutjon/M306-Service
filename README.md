@@ -23,24 +23,23 @@ Autoren: Jonah Gutknecht, Thomas Züger
 
 
 # 2. Einfuehrung 
-   - Beschreibung: Welche Funktionen wird der Service erfuellen
-   - Zeitaufwand: Die Installation von WEBMIN (Werkstatt Auftrag 07) ist bis am 28.09.2021 um 11:05 abgeschlossen.
-   - Stolpersteine: Das RaspberryPI Linux image wurde von vorgehenden Schüler übernommen, wodurch möglicherweise wichtige Config-Files bereits angepasst wurden.
+   - Beschreibung: Welche Funktionen wird der Service erfuellen<br>
+   - Zeitaufwand: Die Installation von WEBMIN (Werkstatt Auftrag 07) ist bis am 28.09.2021 um 11:05 abgeschlossen.<br>
+   - Stolpersteine: Das RaspberryPI Linux image wurde von vorgehenden Schüler übernommen, wodurch möglicherweise wichtige Config-Files bereits angepasst wurden.<br>
 
 # 3. Benoetigte Hard- und Software
    - Hardware (Materialliste, Funktionalitaet)
-  1x RaspberryPI v4 (inkl. Stromkabel)
-  1x HDMI zu DVI Adapter
-  1x HDMI zu miniHDMI Adapter
-  1x Externer Bildschirm
-  1x Tastatur
-  1x Maus
+  1x RaspberryPI v4 (inkl. Stromkabel)<br>
+  1x HDMI zu DVI Adapter<br>
+  1x HDMI zu miniHDMI Adapter<br>
+  1x Externer Bildschirm<br>
+  1x Tastatur<br>
+  1x Maus<br>
   
    - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Ab-
-1x RaspberryPI LInux Image
-1x Webmin (aktuellste Version)
+1x RaspberryPI LInux Image<br>
+1x Webmin (aktuellste Version)<br>
 
-	hängigkeiten, Funktionalitaet)
 
 # 4. Installationsanleitung
  (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
