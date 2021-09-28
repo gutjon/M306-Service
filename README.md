@@ -35,8 +35,9 @@ Autoren: Jonah Gutknecht, Thomas Züger
   1x Externer Bildschirm<br>
   1x Tastatur<br>
   1x Maus<br>
-  
-   - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Ab-
+  <br>
+  <br>
+   - Software Anforderungen
 1x RaspberryPI LInux Image<br>
 1x Webmin (aktuellste Version)<br>
 
