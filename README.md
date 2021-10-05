@@ -49,7 +49,7 @@ Version: 1.0
  Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.
  <code>sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl</code>
 
-**Installation Webmin**
+**Installation Webmin**<br>
 Installation der aktuellsten WEBMIN Version 1.981
 cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
 minimal.tar.gz
@@ -70,7 +70,7 @@ Nach der Installation von Webmin wird die Adresse von Webmin angezeigt.
 Default Benutzer: admin
 Gesetztes Passwort: 12345
 
-**Webmin konfigurieren**
+**Webmin konfigurieren**<br>
 
 Im Webmin Browserfenster können unter dem Punkt «Webmin
 Configuration» und dann «Webmin Modules» weiter Module installiert werden.
@@ -87,7 +87,7 @@ Unter Standard module sollte nun "useradmin" stehen. Anschliessend kann auf "Ins
 Im Hauptmenu auf "System" und dann auf "User and Groups". In diesem Menu können nun neue User erstellt werden.
 ![Bild](/Bilder/create_user.png)
 
-**Admin User Erstellen**
+**Admin User Erstellen**<br>
 
 Weiter unten bei "Group Membership" kann der User noch in die Admin Gruppe genommen werden, damit dieser auch Admin Rechte hat.
 ![Bild](/Bilder/group_membership.png)
@@ -96,7 +96,7 @@ Zum Schluss ganz unten noch auf "create" klicken.
 Anschliessend sieht man den erstellten Benutzer in der Liste
 ![Bild](/Bilder/created_user.png)
 
-**User erstellen**
+**User erstellen**<br>
 
 Hier wird noch ein normaler User Account erstellt.
 ![Bild](/Bilder/create_user_account.png)
@@ -104,7 +104,7 @@ Hier wird noch ein normaler User Account erstellt.
 Diesen User einfach in der Gruppe "Users" lassen.
 ![Bild](/Bilder/group_membership2.png)
 
-**Admin User deaktivieren**
+**Admin User deaktivieren**<br>
 Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.
 ![Bild](/Bilder/admin_user_deactivate.png)
 
