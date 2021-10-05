@@ -107,7 +107,7 @@ Hier wird noch ein normaler User Account erstellt.<br>
 Diesen User einfach in der Gruppe "Users" lassen.<br>
 ![Bild](/Bilder/group_membership2.png)
 
-**Admin User deaktivieren**<br>
+## Admin User deaktivieren<br>
 Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.<br>
 ![Bild](/Bilder/admin_user_deactivate.png)
 
