@@ -46,20 +46,22 @@ Version: 1.0
 # 4. Installationsanleitung
  (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
  Auf dem RaspberryPI WLAN einrichten.
- Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.
+ Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.<br>
  <code>sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl</code>
 
 **Installation Webmin**<br>
 Installation der aktuellsten WEBMIN Version 1.981<br>
-cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
-minimal.tar.gz
+<code>cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
+minimal.tar.gz</code>
 
 Entpacken der heruntergeladenen .tar.gz Datei:<br>
-tar -zxvf webmin-1.981 minimal.tar.gz
+<code>tar -zxvf webmin-1.981 minimal.tar.gz</code>
 
-In den Ordner mit dem installiertem Setup wechseln und anschliessend die Setup Datei ausführen.<br>
-cd webmin-1.881
-sudo ./setup.sh
+In den Ordner mit dem installiertem Setup wechseln<br>
+<code>cd webmin-1.881</code>
+
+Die Setup Datei ausführen<br>
+<code>sudo ./setup.sh</code>
 
 Bei dem Setup kann alles auf default gelassen werden. Empfehlenswert ist das Wechseln des Passwortes. 
 ![Bild](/Bilder/change_password.png)
