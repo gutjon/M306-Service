@@ -49,7 +49,7 @@ Version: 1.0
  Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.
  <code>sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl</code>
 
-**Installation Webmin**<br>
+**Installation Webmin**<br>----------------------------------------------------------------------
 Installation der aktuellsten WEBMIN Version 1.981
 cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
 minimal.tar.gz
