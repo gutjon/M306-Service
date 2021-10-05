@@ -44,7 +44,8 @@ Version: 1.0
 
 
 # 4. Installationsanleitung
- (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)
+ (Didaktisch reduzierte Anleitung. Lernende sollen eine eigene Lösungswege realisieren)<br>
+ <br>
  Auf dem RaspberryPI WLAN einrichten.
  Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.<br>
  <code>sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl</code>
@@ -69,7 +70,7 @@ Bei dem Setup kann alles auf default gelassen werden. Empfehlenswert ist das Wec
 Nach der Installation von Webmin wird die Adresse von Webmin angezeigt. 
 ![Bild](/Bilder/webmin_installation_finished.png)
 
-Default Benutzer: admin
+Default Benutzer: admin<br>
 Gesetztes Passwort: 12345
 
 **Webmin konfigurieren**<br>
@@ -119,24 +120,24 @@ In der Benutzerliste wird der deaktiviert Account jetzt Kursiv angezeigt.
 Folgende Commands können ausgeführt werden um zu testen, ob alles richtig funktioniert.
 
 **Status von Webmin überprüfen:**<br>
-sudo service webmin status
+<code>sudo service webmin </code>   
 
 **Webmin re/starten:**<br>
-sudo /etc/webmin/start
+<code>sudo /etc/webmin/start</code>
 
 **sudo service:**<br>
-webmin restart
+<code>webmin restart</code>
 
 **Webmin stoppen:**<br>
-sudo service webmin stop
+<code>sudo service webmin stop</code>
 
 **Konfiguration überprüfen:**<br>
-cd /etc/webmin (Ordner von config files)
+<code>cd /etc/webmin (Ordner von config files)</code>
 
 
 # 6. Error-Handling 
 
-Wir hatten bei der Installation von Webmin keine grösseren Probleme
+Wir hatten bei der Installation von Webmin keine grösseren Probleme.
 
 
 # 7. Quellen
@@ -145,6 +146,9 @@ https://bscw.tbz.ch/bscw/bscw.cgi/31513531?op=preview&back_url=27527809
 
 RaspberryPI OS
 https://www.raspberrypi.org/software/
+
+Markdown code Tag
+https://www.w3schools.com/tags/tag_code.asp
 
 # 8. OpenSource Lizenz
 
