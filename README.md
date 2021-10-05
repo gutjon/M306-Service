@@ -29,7 +29,7 @@ Version: 1.0
    - Stolpersteine: Das RaspberryPI Linux image wurde von vorgehenden Schüler übernommen, wodurch möglicherweise wichtige Config-Files bereits angepasst wurden.<br>
 
 # 3. Benoetigte Hard- und Software
-   - Hardware Materialliste<br>
+  **Hardware Materialliste**<br>
   1x RaspberryPI v4 (inkl. Stromkabel)<br>
   1x HDMI zu DVI Adapter<br>
   1x HDMI zu miniHDMI Adapter<br>
@@ -38,7 +38,7 @@ Version: 1.0
   1x Maus<br>
   <br>
 
-   - Software Anforderungen<br>
+  **Software Anforderungen**<br>
 1x RaspberryPI LInux Image<br>
 1x Webmin (aktuellste Version)<br>
 
