@@ -17,7 +17,7 @@
 
 
 # 1. Autoren, Versionierung des Dokumentes
-Autoren: Jonah Gutknecht, Thomas Züger
+Autoren: Jonah Gutknecht, Thomas Züger<br>
 Version: 1.0
 <br>
 
