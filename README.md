@@ -18,12 +18,13 @@
 
 # 1. Autoren, Versionierung des Dokumentes
 Autoren: Jonah Gutknecht, Thomas Züger
+Version: 1.0
 <br>
 
 
 
 # 2. Einfuehrung 
-   - Beschreibung: Welche Funktionen wird der Service erfuellen<br>
+   - Durch die Installation von Webmin kann durch die Web-App Systemkonfigurationen von Unix Systemen verwaltet werden. <br>
    - Zeitaufwand: Die Installation von WEBMIN (Werkstatt Auftrag 07) ist bis am 28.09.2021 um 11:05 abgeschlossen.<br>
    - Stolpersteine: Das RaspberryPI Linux image wurde von vorgehenden Schüler übernommen, wodurch möglicherweise wichtige Config-Files bereits angepasst wurden.<br>
 
@@ -134,6 +135,7 @@ cd /etc/webmin (Ordner von config files)
 # 6. Error-Handling 
 
 Wir hatten bei der Installation von Webmin keine grösseren Probleme
+
 
 # 7. Quellen
 Anleitung Installation Webmin
