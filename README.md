@@ -55,7 +55,7 @@ Installation der aktuellsten WEBMIN Version 1.981<br>
 <code>cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
 minimal.tar.gz</code>
 
-Entpacken der heruntergeladenen .tar.gz Datei:<br>
+Entpacken der heruntergeladenen .tar.gz Datei<br>
 <code>tar -zxvf webmin-1.981 minimal.tar.gz</code>
 
 In den Ordner mit dem installiertem Setup wechseln<br>
