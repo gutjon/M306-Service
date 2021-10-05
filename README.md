@@ -61,10 +61,10 @@ cd webmin-1.881
 sudo ./setup.sh
 
 Bei dem Setup kann alles auf default gelassen werden. Empfehlenswert ist das Wechseln des Passwortes. 
-![Bild](change_password.png)
+![Bild](/Bilder/change_password.png)
 
 Nach der Installation von Webmin wird die Adresse von Webmin angezeigt. 
-![Bild](webmin_installation_finished.png)
+![Bild](/Bilder/webmin_installation_finished.png)
 
 Default Benutzer: admin
 Gesetztes Passwort: 12345
@@ -75,40 +75,40 @@ Im Webmin Browserfenster können unter dem Punkt «Webmin
 Configuration» und dann «Webmin Modules» weiter Module installiert werden.
 
 Mit den drei Punkten auf der rechten Seite können zusätzliche Module installiert werden.
-![Bild](webmin_additionally_modules.png)
+![Bild](/Bilder/webmin_additionally_modules.png)
 
 Wähle das "useradmin" Modul an und gehe unten links auf "Install"
-![Bild](install_useradmin.png)
+![Bild](/Bilder/install_useradmin.png)
 
 Unter Standard module sollte nun "useradmin" stehen. Anschliessend kann auf "Install Module" geklickt werden.
-![Bild](install_module.png)
+![Bild](/Bilder/install_module.png)
 
 Im Hauptmenu auf "System" und dann auf "User and Groups". In diesem Menu können nun neue User erstellt werden.
-![Bild](create_user.png)
+![Bild](/Bilder/create_user.png)
 
 **Admin User Erstellen**
 
 Weiter unten bei "Group Membership" kann der User noch in die Admin Gruppe genommen werden, damit dieser auch Admin Rechte hat.
-![Bild](group_membership.png)
+![Bild](/Bilder/group_membership.png)
 Zum Schluss ganz unten noch auf "create" klicken.
 
 Anschliessend sieht man den erstellten Benutzer in der Liste
-![Bild](created_user.png)
+![Bild](/Bilder/created_user.png)
 
 **User erstellen**
 
 Hier wird noch ein normaler User Account erstellt.
-![Bild](create_user_account.png)
+![Bild](/Bilder/create_user_account.png)
 
 Diesen User einfach in der Gruppe "Users" lassen.
-![Bild](group_membership2.png)
+![Bild](/Bilder/group_membership2.png)
 
 **Admin User deaktivieren**
 Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.
-![Bild](admin_user_deactivate.png)
+![Bild](/Bilder/admin_user_deactivate.png)
 
 In der Benutzerliste wird der deaktiviert Account jetzt Kursiv angezeigt.
-![Bild](disabled.png)
+![Bild](/Bilder/disabled.png)
 
 
 
