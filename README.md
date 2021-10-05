@@ -65,7 +65,8 @@ Die Setup Datei ausführen<br>
 <code>sudo ./setup.sh</code>
 
 Bei dem Setup kann alles auf default gelassen werden. Empfehlenswert ist das Wechseln des Passwortes. 
-![Bild](/Bilder/change_password.png)
+![Bild](/Bilder/change_password.png)$
+
 
 Nach der Installation von Webmin wird die Adresse von Webmin angezeigt. 
 ![Bild](/Bilder/webmin_installation_finished.png)
@@ -73,7 +74,7 @@ Nach der Installation von Webmin wird die Adresse von Webmin angezeigt.
 Default Benutzer: admin<br>
 Gesetztes Passwort: 12345
 
-## Webmin konfigurieren<br>
+## Webmin konfigurieren (Nur für Lehrer)<br>
 
 Im Webmin Browserfenster können unter dem Punkt «Webmin
 Configuration» und dann «Webmin Modules» weiter Module installiert werden.
