@@ -29,7 +29,7 @@ Version: 1.0
    - Stolpersteine: Das RaspberryPI Linux image wurde von vorgehenden Schüler übernommen, wodurch möglicherweise wichtige Config-Files bereits angepasst wurden.<br>
 
 # 3. Benoetigte Hard- und Software
-  **Hardware Materialliste**<br>
+  *##Hardware Materialliste<br>
   1x RaspberryPI v4 (inkl. Stromkabel)<br>
   1x HDMI zu DVI Adapter<br>
   1x HDMI zu miniHDMI Adapter<br>
@@ -38,7 +38,7 @@ Version: 1.0
   1x Maus<br>
   <br>
 
-  **Software Anforderungen**<br>
+  ## Software Anforderungen<br>
 1x RaspberryPI LInux Image<br>
 1x Webmin (aktuellste Version)<br>
 
@@ -50,7 +50,7 @@ Version: 1.0
  Für die Installation von WEBMIN werden zusätzliche Libaries verwendet. Mit folgendem Befehl können diese eingerichtet werden.<br>
  <code>sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl</code>
 
-**Installation Webmin**<br>
+## Installation Webmin<br>
 Installation der aktuellsten WEBMIN Version 1.981<br>
 <code>cd wget http://prdownloads.sourceforge.net/webadmin/webmin-1.981-
 minimal.tar.gz</code>
@@ -73,7 +73,7 @@ Nach der Installation von Webmin wird die Adresse von Webmin angezeigt.
 Default Benutzer: admin<br>
 Gesetztes Passwort: 12345
 
-**Webmin konfigurieren**<br>
+## Webmin konfigurieren<br>
 
 Im Webmin Browserfenster können unter dem Punkt «Webmin
 Configuration» und dann «Webmin Modules» weiter Module installiert werden.
@@ -90,7 +90,7 @@ Unter Standard module sollte nun "useradmin" stehen. Anschliessend kann auf "Ins
 Im Hauptmenu auf "System" und dann auf "User and Groups". In diesem Menu können nun neue User erstellt werden.
 ![Bild](/Bilder/create_user.png)
 
-**Admin User Erstellen**<br>
+## Admin User Erstellen<br>
 
 Weiter unten bei "Group Membership" kann der User noch in die Admin Gruppe genommen werden, damit dieser auch Admin Rechte hat.
 ![Bild](/Bilder/group_membership.png)
@@ -99,7 +99,7 @@ Zum Schluss ganz unten noch auf "create" klicken.
 Anschliessend sieht man den erstellten Benutzer in der Liste
 ![Bild](/Bilder/created_user.png)
 
-**User erstellen**<br>
+## User erstellen<br>
 
 Hier wird noch ein normaler User Account erstellt.
 ![Bild](/Bilder/create_user_account.png)
@@ -107,7 +107,7 @@ Hier wird noch ein normaler User Account erstellt.
 Diesen User einfach in der Gruppe "Users" lassen.
 ![Bild](/Bilder/group_membership2.png)
 
-**Admin User deaktivieren**<br>
+## Admin User deaktivieren<br>
 Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.
 ![Bild](/Bilder/admin_user_deactivate.png)
 
