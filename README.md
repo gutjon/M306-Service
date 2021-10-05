@@ -78,40 +78,40 @@ Gesetztes Passwort: 12345
 Im Webmin Browserfenster können unter dem Punkt «Webmin
 Configuration» und dann «Webmin Modules» weiter Module installiert werden.
 
-Mit den drei Punkten auf der rechten Seite können zusätzliche Module installiert werden.
+Mit den drei Punkten auf der rechten Seite können zusätzliche Module installiert werden.<br>
 ![Bild](/Bilder/webmin_additionally_modules.png)
 
-Wähle das "useradmin" Modul an und gehe unten links auf "Install"
+Wähle das "useradmin" Modul an und gehe unten links auf "Install"<br>
 ![Bild](/Bilder/install_useradmin.png)
 
-Unter Standard module sollte nun "useradmin" stehen. Anschliessend kann auf "Install Module" geklickt werden.
+Unter Standard module sollte nun "useradmin" stehen. Anschliessend kann auf "Install Module" geklickt werden.<br>
 ![Bild](/Bilder/install_module.png)
 
-Im Hauptmenu auf "System" und dann auf "User and Groups". In diesem Menu können nun neue User erstellt werden.
+Im Hauptmenu auf "System" und dann auf "User and Groups". In diesem Menu können nun neue User erstellt werden.<br>
 ![Bild](/Bilder/create_user.png)
 
 **Admin User Erstellen**<br>
 
-Weiter unten bei "Group Membership" kann der User noch in die Admin Gruppe genommen werden, damit dieser auch Admin Rechte hat.
+Weiter unten bei "Group Membership" kann der User noch in die Admin Gruppe genommen werden, damit dieser auch Admin Rechte hat.<br>
 ![Bild](/Bilder/group_membership.png)
 Zum Schluss ganz unten noch auf "create" klicken.
 
-Anschliessend sieht man den erstellten Benutzer in der Liste
+Anschliessend sieht man den erstellten Benutzer in der Liste<br>
 ![Bild](/Bilder/created_user.png)
 
 **User erstellen**<br>
 
-Hier wird noch ein normaler User Account erstellt.
+Hier wird noch ein normaler User Account erstellt.<br>
 ![Bild](/Bilder/create_user_account.png)
 
-Diesen User einfach in der Gruppe "Users" lassen.
+Diesen User einfach in der Gruppe "Users" lassen.<br>
 ![Bild](/Bilder/group_membership2.png)
 
 **Admin User deaktivieren**<br>
-Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.
+Falls der Admin deaktiviert werden soll, kann einfach der Admin Account ausgewählt und auf "Disable selected" geklickt werden.<br>
 ![Bild](/Bilder/admin_user_deactivate.png)
 
-In der Benutzerliste wird der deaktiviert Account jetzt Kursiv angezeigt.
+In der Benutzerliste wird der deaktiviert Account jetzt Kursiv angezeigt.<br>
 ![Bild](/Bilder/disabled.png)
 
 
