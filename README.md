@@ -24,7 +24,7 @@ Version: 1.0
 
 
 # 2. Einfuehrung 
-   - Durch die Installation von Webmin kann durch die Web-App Systemkonfigurationen von Unix Systemen verwaltet werden. <br>
+   - Beschreibung: Durch die Installation von Webmin kann durch die Web-App Systemkonfigurationen von Unix Systemen verwaltet werden. <br>
    - Zeitaufwand: Die Installation von WEBMIN (Werkstatt Auftrag 07) ist bis am 28.09.2021 um 11:05 abgeschlossen.<br>
    - Stolpersteine: Das RaspberryPI Linux image wurde von vorgehenden Schüler übernommen, wodurch möglicherweise wichtige Config-Files bereits angepasst wurden.<br>
 
